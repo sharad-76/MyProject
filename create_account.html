@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="create_account.css">
+    <link rel="shortcut icon" href="fav4.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navContainer">
+                <nav class="menu">
+                <ul id="navList">
+                    <li class="logo">
+                        <img src="fav4.png" alt="">
+                        <p id="headingName">Fitness</p>
+                    </li>
+                    <li>
+                        <div class="navItems">
+                            <a class="nav-flex" href="login.html"><img class="logo" src="avatar.png"></a>
+                            <a class="nav-flex" id="nav-flex1" href="index.html">HOME</a>
+                            <a class="nav-flex" id="nav-flex1" href="gym1.html">JOIN</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </nav>
+            </div>
+        </header>
+        <form action="database.php" method="post">
+            <h2 class="heading">Create Your Account</h2>
+            <div class="form-group">
+                <label class="labels" for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required placeholder="enter your first name">
+            </div>
+            <div class="form-group">
+                <label class="labels" for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required placeholder="enter your last name">
+            </div>
+            <div class="form-group">
+                <label class="labels" for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required placeholder="your Date of Birth">
+            </div>
+            <div class="form-group">
+                <label class="labels" for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="enter username">
+            </div>
+            <div class="form-group">
+                <label class="labels" for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="email@email.com">
+            </div>
+            <div class="form-group">
+                <label  class="labels" for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="enter password">
+            </div>
+            <div class="form-group">
+                <label class="labels" for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required placeholder="confirm password">
+            </div>
+            <button type="submit" name="sign_up">Sign Up</button>
+            <p class="cancel"><a class="cancelText" href="login.html">Cancel</a></p>
+        </form>
+    </div>
+</body>
+</html>

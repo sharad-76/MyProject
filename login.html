@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="fav4.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="login-container">
+        <header class="header1">
+            <div class="navContainer">
+                <nav class="menu">
+                <ul id="navList">
+                    <li class="logo">
+                        <img src="fav4.png" class="fav44">
+                        <p id="headingName">Fitness</p>
+                    </li>
+                    <li>
+                        <div class="navItems">
+                            <a class="nav-flex" href="login.html"><img class="logo" src="avatar.png"></a>
+                            <a class="nav-flex" id="nav-flex1" href="index.html">HOME</a>
+                            <a class="nav-flex" id="nav-flex1" href="gym1.html">JOIN</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </nav>
+            </div>
+        </header>
+        <div class="login-page">
+            <img  class="login-img" src="loginimg6.jpg">
+            <div class="form">
+                <form action="login3.php" method="post" >
+                    <label id="email-label">USERNAME</label><br>
+                    <input type="text" name="username" id="username1" placeholder="enter username" required><br>
+                    <label id="pass-label">PASSWORD</label><br>
+                    <input type="password" name="password" id="password1" placeholder="enter password" required><br>
+                    <div class="btext-con">
+                        <p class="btext">*SIGN IN OR SIGN UP TO CONTINUE*</p><br>
+                    </div>
+                    <div class="submit-button">
+                        <input type="submit" value="LOGIN" name="login" class="login-button">
+                    </div>
+                    <p class="createAccount"><a class="cAccountText" href="create_account.html">Create an Account</a></p>
+                    <!-- <p class="memberText">Member Of The Fitnees Club?</p>
+                    <p class="otherLogin">
+                        <a class="otherLoginText" href="#">Click here to log in</a>
+                    </p> -->
+                    <p class="forgetpassword">
+                        <a id="forgetpassword" href="#">Forget Password?</a>
+                    </p>
+                </form>
+            </div>
+
+        </div>
+       
+       
+
+    </div>
+</body>
+</html>
